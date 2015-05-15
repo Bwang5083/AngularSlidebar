@@ -1,7 +1,6 @@
 var channelName = 'TechGuyWeb';
 
 $(document).ready(function () {
-    alert("ready");
     document.getElementById("search").addEventListener('click', search, false);
 
     function search() {
