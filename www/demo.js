@@ -29,8 +29,6 @@ app.config(function($routeProvider) {
   $routeProvider.when('/overlay',       {templateUrl: 'overlay.html', reloadOnSearch: false});
   $routeProvider.when('/forms',         {templateUrl: 'forms.html', reloadOnSearch: false});
   $routeProvider.when('/dropdown',      {templateUrl: 'dropdown.html', reloadOnSearch: false});
-  $routeProvider.when('/youtube',      {templateUrl: 'youtube.html', reloadOnSearch: false});
-  $routeProvider.when('/game',      {templateUrl: 'game.html', reloadOnSearch: false});
   $routeProvider.when('/drag',          {templateUrl: 'drag.html', reloadOnSearch: false});
   $routeProvider.when('/carousel',      {templateUrl: 'carousel.html', reloadOnSearch: false});
 });
